@@ -1,0 +1,5 @@
+Base path: 'C:/Program Files/Unity/Hub/Editor/2019.3.4f1/Editor/Data', plugins path 'C:/Program Files/Unity/Hub/Editor/2019.3.4f1/Editor/Data/PlaybackEngines'
+Cmd: initializeCompiler
+Cmd: compileComputeKernel
+  error: 1 plat 4 at Sort.compute(8): 'multi_compile' : unknown pragma ignored
+  api=4 insize=9233 outsize=4271 ok=1
