@@ -40,19 +40,19 @@ public class PhysicsButton : MonoBehaviour
         var value = Vector3.Distance(_startPos, transform.localPosition) / _joint.linearLimit.limit;
 
         if (Math.Abs(value) < deadZone)
-            value = 0;
-        return Mathf.Clamp(value, -1f, 1f);
+           value = 0;
+           return Mathf.Clamp(value, -1f, 1f);
     }
 
-    private void Pressed()
+    public void Pressed()
     {
         _isPressed = true;
         onPressed.Invoke();
         Debug.Log("pressed!");
     }
 
-    private void Released()
-    {
+    public void Released()
+   {
         _isPressed = false;
         onReleased.Invoke();
         Debug.Log("unpressed!");
