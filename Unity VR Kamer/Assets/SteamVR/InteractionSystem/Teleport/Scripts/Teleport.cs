@@ -161,8 +161,8 @@ namespace Valve.VR.InteractionSystem
 
 			loopingAudioMaxVolume = loopingAudioSource.volume;
 
-			playAreaPreviewCorner.SetActive( false );
-			playAreaPreviewSide.SetActive( false );
+			playAreaPreviewCorner.SetActive( true );
+			playAreaPreviewSide.SetActive( true );
 
 			float invalidReticleStartingScale = invalidReticleTransform.localScale.x;
 			invalidReticleMinScale *= invalidReticleStartingScale;

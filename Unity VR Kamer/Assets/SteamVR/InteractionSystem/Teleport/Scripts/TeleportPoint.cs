@@ -76,7 +76,7 @@ namespace Valve.VR.InteractionSystem
 			tintColorID = Shader.PropertyToID("_TintColor");
 #endif
 
-			moveLocationIcon.gameObject.SetActive( false );
+			moveLocationIcon.gameObject.SetActive( true );
 			switchSceneIcon.gameObject.SetActive( false );
 			lockedIcon.gameObject.SetActive( false );
 
